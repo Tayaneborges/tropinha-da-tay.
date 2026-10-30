@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tropinha da Tay | Guia HUB</title>
+<meta name="description" content="Guia completo da Tropinha da Tay sobre a HUB, tutoriais e orientações para participantes.">
+
+<style>
+:root {
+  --green: #28583e;
+  --dark: #183b2a;
+  --light: #eaf2e9;
+  --cream: #f8faf5;
+  --white: #ffffff;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--cream);
+  color: #25372b;
+}
+header {
+  background: var(--dark);
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.logo { font-size: 21px; font-weight: bold; }
+nav { display: flex; flex-wrap: wrap; gap: 15px; }
+nav a { color: white; text-decoration: none; font-size: 13px; }
+.hero {
+  background: linear-gradient(140deg,#28583e,#527e5c);
+  color: white;
+  text-align: center;
+  padding: 75px 20px;
+}
+.hero .symbol { font-size: 42px; }
+.hero h1 { font-size: clamp(32px,6vw,48px); margin: 15px 0; }
+.hero p { max-width: 600px; margin: auto; line-height: 1.7; }
+.btn {
+  display: inline-block;
+  background: white;
+  color: var(--dark);
+  padding: 13px 23px;
+  border-radius: 30px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main { max-width: 1050px; margin: auto; padding: 35px 18px; }
+section { margin-bottom: 45px; scroll-margin-top: 20px; }
+h2 { color: var(--green); font-size: 25px; }
+.intro { line-height: 1.8; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 17px;
+}
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 23px;
+  box-shadow: 0 4px 16px #183b2a12;
+  border: 1px solid #e3ebe2;
+}
+.card .emoji { font-size: 28px; }
+.card h3 { color: var(--green); }
+.card p { line-height: 1.6; font-size: 14px; }
+.notice {
+  background: var(--light);
+  border-left: 4px solid var(--green);
+  padding: 18px;
+  border-radius: 8px;
+  line-height: 1.7;
+}
+details {
+  background: white;
+  padding: 17px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000008;
+}
+summary { cursor: pointer; font-weight: bold; color: var(--green); }
+details p { line-height: 1.6; }
+.link {
+  display: inline-block;
+  background: var(--green);
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 9px;
+  margin-top: 10px;
+}
+footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 28px 15px;
+  line-height: 1.8;
+}
+.small { font-size: 12px; opacity: .85; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🌿 TROPINHA DA TAY</div>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#participar">Participação</a>
+    <a href="#tutoriais">Tutoriais</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+</header>
+
+<div class="hero" id="inicio">
+  <div class="symbol">💚🌿</div>
+  <h1>Bem-vindo à Tropinha da Tay!</h1>
+  <p>Seu espaço de informações, orientações e aprendizado sobre a HUB. Tudo organizado para você entender cada etapa!</p>
+  <a class="btn" href="#sobre">COMEÇAR AGORA</a>
+</div>
+
+<main>
+
+<section id="sobre">
+  <h2>💚 Conheça a HUB</h2>
+  <p class="intro">
+    Este guia foi criado para reunir informações e ajudar quem deseja conhecer e participar das atividades da HUB. Aqui você encontrará orientações, tutoriais e informações importantes para começar.
+  </p>
+  <div class="notice">
+    <strong>Importante:</strong> Leia todas as orientações antes de realizar seu cadastro. Confira sempre os requisitos e as regras diretamente nos canais oficiais da plataforma.
+  </div>
+</section>
+
+<section id="participar">
+  <h2>🌱 Quem pode participar?</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">📱</div>
+      <h3>Dispositivo compatível</h3>
+      <p>É necessário ter um aparelho que atenda aos requisitos da modalidade escolhida.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🌐</div>
+      <h3>Acesso à internet</h3>
+      <p>Uma conexão estável ajuda a realizar as etapas e acompanhar as atividades.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">📋</div>
+      <h3>Atenção às regras</h3>
+      <p>Leia os termos, requisitos e critérios de participação antes de começar.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🤝</div>
+      <h3>Responsabilidade</h3>
+      <p>Respeite as orientações e utilize apenas informações verdadeiras no cadastro.</p>
+    </div>
+  </div>
+</section>
+
+<section id="modalidades">
+  <h2>📲 Conheça as modalidades</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">📱</div>
+      <h3>Minute</h3>
+      <p>Modalidade que possui requisitos específicos de compatibilidade. Consulte a lista oficial de aparelhos aceitos antes de tentar participar.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">💻</div>
+      <h3>HUB Capture</h3>
+      <p>Outra modalidade da HUB. Confira os requisitos técnicos e as condições de utilização nos canais oficiais.</p>
+    </div>
+  </div>
+</section>
+
+<section id="celulares">
+  <h2>📱 Compatibilidade de celulares</h2>
+  <p class="intro">
+    A compatibilidade pode variar conforme a modalidade, o sistema operacional e a versão do aplicativo.
+  </p>
+  <div class="notice">
+    <strong>Consulte antes de participar!</strong><br>
+    A lista oficial de aparelhos compatíveis será adicionada aqui após a confirmação dos modelos aceitos pela plataforma.
+  </div>
+</section>
+
+<section id="tutoriais">
+  <h2>📚 Tutoriais passo a passo</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">1️⃣</div>
+      <h3>Como começar</h3>
+      <p>Aprenda a conhecer a plataforma e identificar a modalidade adequada.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">2️⃣</div>
+      <h3>Como realizar o cadastro</h3>
+      <p>Veja as orientações para preencher seus dados corretamente.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">3️⃣</div>
+      <h3>Como utilizar a HUB</h3>
+      <p>Entenda as etapas e acompanhe as instruções de utilização.</p>
+    </div>
+  </div>
+  <p class="small">Os tutoriais detalhados e ilustrados serão adicionados em breve.</p>
+</section>
+
+<section id="duvidas">
+  <h2>❓ Perguntas frequentes</h2>
+
+  <details>
+    <summary>Preciso pagar para participar?</summary>
+    <p>Não pague a terceiros por promessa de cadastro ou aprovação. Consulte sempre as condições oficiais da plataforma.</p>
+  </details>
+
+  <details>
+    <summary>Qualquer celular funciona?</summary>
+    <p>Não necessariamente. A compatibilidade depende da modalidade e dos requisitos técnicos.</p>
+  </details>
+
+  <details>
+    <summary>Posso ganhar dinheiro com a HUB?</summary>
+    <p>Eventuais ganhos dependem das atividades disponíveis, das regras e da aprovação das tarefas pela plataforma. Não existe garantia de renda.</p>
+  </details>
+
+  <details>
+    <summary>Onde encontro ajuda?</summary>
+    <p>Você pode consultar as orientações oficiais da HUB e os canais de suporte disponibilizados pela plataforma.</p>
+  </details>
+</section>
+
+<section id="contato">
+  <h2>💚 Faça parte da Tropinha!</h2>
+  <p class="intro">Compartilhe conhecimento, aprenda e acompanhe as novidades do nosso projeto.</p>
+  <div class="notice">
+    <strong>Nosso espaço está crescendo!</strong><br>
+    Em breve adicionaremos os links oficiais de cadastro, redes sociais e grupo de suporte.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <strong>🌿 TROPINHA DA TAY 💚</strong>
+  <p>Informação, orientação e aprendizado!</p>
+  <div class="small">Projeto independente. Não somos representantes oficiais da HUB.</div>
+  <div class="small">© 2026 Tropinha da Tay</div>
+</footer>
+
+</body>
+</html>
